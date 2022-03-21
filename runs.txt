@@ -1,0 +1,424 @@
+runs with 1000 vertices, f and g both unif(1,11)
+actual comp: 24 others: 149413
+0.1201
+actual comp: 23 others: 149179
+0.1355
+actual comp: 27 others: 149783
+0.1126
+actual comp: 20 others: 149682
+0.1271
+actual comp: 32 others: 149472
+0.129
+actual comp: 22 others: 149491
+0.144
+actual comp: 29 others: 149243
+0.1208
+actual comp: 20 others: 149896
+0.1287
+actual comp: 25 others: 149456
+0.1244
+actual comp: 19 others: 148931
+0.1431
+actual comp: 23 others: 149654
+0.1354
+actual comp: 19 others: 149938
+0.1306
+actual comp: 18 others: 149497
+0.133
+actual comp: 22 others: 149308
+0.1348
+actual comp: 21 others: 149161
+0.1354
+actual comp: 19 others: 149605
+0.1346
+actual comp: 22 others: 149160
+0.1277
+actual comp: 18 others: 149898
+0.137
+actual comp: 26 others: 149748
+0.1208
+actual comp: 17 others: 149738
+0.1369
+actual comp: 19 others: 149016
+0.1348
+actual comp: 23 others: 149396
+0.1277
+actual comp: 24 others: 149494
+0.1386
+actual comp: 21 others: 149856
+0.1262
+actual comp: 23 others: 149387
+0.1229
+actual comp: 19 others: 149397
+0.1445
+actual comp: 24 others: 149625
+0.1313
+actual comp: 33 others: 149407
+0.1285
+actual comp: 18 others: 149312
+0.13
+actual comp: 19 others: 148990
+0.1253
+actual comp: 14 others: 149514
+0.1301
+actual comp: 25 others: 149640
+0.1343
+actual comp: 26 others: 149116
+0.1334
+actual comp: 25 others: 149231
+0.1352
+actual comp: 15 others: 149189
+0.1301
+actual comp: 19 others: 149915
+0.1311
+actual comp: 19 others: 149839
+0.1397
+actual comp: 17 others: 149651
+0.1354
+actual comp: 26 others: 149701
+0.1259
+actual comp: 17 others: 149528
+0.1339
+actual comp: 21 others: 149788
+0.135
+actual comp: 23 others: 149419
+0.128
+actual comp: 13 others: 149668
+0.121
+actual comp: 24 others: 149394
+0.127
+actual comp: 32 others: 149640
+0.1314
+actual comp: 22 others: 149487
+0.1342
+actual comp: 32 others: 150171
+0.1352
+actual comp: 18 others: 149570
+0.141
+actual comp: 20 others: 148966
+0.15
+actual comp: 21 others: 149817
+0.1281
+actual comp: 24 others: 149915
+0.1388
+actual comp: 23 others: 149740
+0.1343
+actual comp: 21 others: 149315
+0.1349
+actual comp: 30 others: 149194
+0.1285
+actual comp: 28 others: 149768
+0.1293
+actual comp: 27 others: 149244
+0.1187
+actual comp: 21 others: 149512
+0.1367
+actual comp: 23 others: 149374
+0.1429
+actual comp: 19 others: 149238
+0.128
+actual comp: 23 others: 149421
+0.1365
+actual comp: 22 others: 149051
+0.1262
+actual comp: 34 others: 149762
+0.1382
+actual comp: 27 others: 150319
+0.1324
+actual comp: 25 others: 149478
+0.1195
+actual comp: 21 others: 149644
+0.1305
+actual comp: 24 others: 149648
+0.1323
+actual comp: 22 others: 149309
+0.1313
+actual comp: 20 others: 149758
+0.1188
+actual comp: 24 others: 149829
+0.1269
+actual comp: 22 others: 149477
+0.125
+actual comp: 22 others: 149899
+0.1332
+actual comp: 24 others: 149692
+0.1172
+actual comp: 24 others: 149545
+0.1265
+actual comp: 18 others: 149839
+0.129
+actual comp: 17 others: 149160
+0.1352
+actual comp: 28 others: 149419
+0.1305
+actual comp: 24 others: 149545
+0.1344
+actual comp: 24 others: 149350
+0.1231
+actual comp: 26 others: 149572
+0.1378
+actual comp: 22 others: 149805
+0.1219
+actual comp: 19 others: 149732
+0.1339
+actual comp: 24 others: 149052
+0.1319
+actual comp: 22 others: 149213
+0.1349
+actual comp: 23 others: 149270
+0.1331
+actual comp: 22 others: 149776
+0.129
+actual comp: 23 others: 150023
+0.1366
+actual comp: 23 others: 149464
+0.1289
+actual comp: 21 others: 149261
+0.1064
+actual comp: 19 others: 149607
+0.124
+actual comp: 24 others: 149842
+0.1269
+actual comp: 30 others: 149470
+0.1334
+actual comp: 19 others: 149551
+0.1351
+actual comp: 21 others: 149216
+actual comp: 19 others: 149277
+actual comp: 23 others: 149649
+0.121
+actual comp: 26 others: 148853
+0.131
+actual comp: 27 others: 149384
+0.131
+actual comp: 21 others: 149192
+0.1226
+actual comp: 22 others: 149789
+0.1352
+actual comp: 17 others: 149269
+0.1322
+
+runs with 10,000 vertices
+
+actual comp: 34 others: 14993507
+0.1017
+actual comp: 25 others: 14994779
+0.1038
+actual comp: 36 others: 14997586
+0.1038
+actual comp: 38 others: 14996370
+0.1032
+actual comp: 31 others: 14990939
+0.1034
+actual comp: 29 others: 14994673
+0.1032
+actual comp: 25 others: 14993544
+0.1031
+actual comp: 34 others: 14991663
+0.1057
+actual comp: 40 others: 14995740
+0.1022
+actual comp: 19 others: 14994199
+0.1066
+ 
+runs with 1000 vertices, f and g both unif(1,101)
+actual comp: 22 others: 149415
+0.008889
+actual comp: 20 others: 149182
+0.02054
+actual comp: 20 others: 149790
+0.01135
+actual comp: 14 others: 149688
+0.02095
+actual comp: 24 others: 149480
+0.02315
+actual comp: 21 others: 149492
+0.03491
+actual comp: 27 others: 149245
+0.01532
+actual comp: 18 others: 149898
+0.01741
+actual comp: 18 others: 149463
+0.01819
+actual comp: 17 others: 148933
+0.02155
+actual comp: 24 others: 149653
+0.02374
+actual comp: 18 others: 149939
+0.01653
+actual comp: 23 others: 149492
+0.02491
+actual comp: 14 others: 149316
+0.02381
+actual comp: 15 others: 149167
+0.024
+actual comp: 31 others: 149593
+0.01514
+actual comp: 24 others: 149158
+0.02154
+actual comp: 16 others: 149900
+0.02748
+actual comp: 18 others: 149756
+0.01346
+actual comp: 25 others: 149730
+0.01978
+actual comp: 21 others: 149014
+0.0261
+actual comp: 29 others: 149390
+0.01899
+actual comp: 28 others: 149490
+0.02991
+actual comp: 19 others: 149858
+0.01749
+actual comp: 17 others: 149393
+0.009464
+actual comp: 28 others: 149388
+0.0254
+actual comp: 17 others: 149632
+0.0174
+actual comp: 20 others: 149420
+0.01358
+actual comp: 16 others: 149314
+0.01578
+actual comp: 20 others: 148989
+0.01481
+actual comp: 19 others: 149509
+0.01493
+actual comp: 19 others: 149646
+0.02131
+actual comp: 24 others: 149118
+0.0219
+actual comp: 20 others: 149236
+0.02001
+actual comp: 12 others: 149192
+0.01121
+actual comp: 31 others: 149903
+0.01745
+actual comp: 21 others: 149837
+0.02424
+actual comp: 16 others: 149652
+0.01525
+actual comp: 30 others: 149697
+0.01726
+actual comp: 21 others: 149524
+0.02341
+actual comp: 14 others: 149795
+0.02243
+actual comp: 18 others: 149424
+0.01403
+actual comp: 23 others: 149658
+0.01626
+actual comp: 14 others: 149404
+0.0167
+actual comp: 24 others: 149648
+0.02253
+actual comp: 18 others: 149491
+0.01927
+actual comp: 35 others: 150168
+0.01737
+actual comp: 24 others: 149564
+0.02075
+actual comp: 23 others: 148963
+0.02821
+actual comp: 21 others: 149817
+0.01673
+actual comp: 28 others: 149911
+0.02188
+actual comp: 12 others: 149751
+0.01831
+actual comp: 25 others: 149311
+0.02437
+actual comp: 20 others: 149204
+0.02039
+actual comp: 20 others: 149776
+0.0208
+actual comp: 23 others: 149248
+0.01312
+actual comp: 19 others: 149514
+0.01779
+actual comp: 27 others: 149370
+0.01941
+actual comp: 17 others: 149240
+0.02191
+actual comp: 21 others: 149423
+0.01475
+actual comp: 20 others: 149053
+0.01751
+actual comp: 18 others: 149778
+0.01795
+actual comp: 18 others: 150328
+0.02168
+actual comp: 20 others: 149483
+0.007511
+actual comp: 27 others: 149638
+0.01515
+actual comp: 25 others: 149647
+0.01492
+actual comp: 23 others: 149308
+0.02084
+actual comp: 13 others: 149765
+0.01086
+actual comp: 24 others: 149829
+0.01977
+actual comp: 31 others: 149468
+0.009929
+actual comp: 25 others: 149896
+0.02381
+actual comp: 19 others: 149697
+0.01035
+actual comp: 24 others: 149545
+0.01025
+actual comp: 27 others: 149830
+0.01785
+actual comp: 19 others: 149158
+0.02033
+actual comp: 20 others: 149427
+0.01774
+actual comp: 18 others: 149551
+0.01704
+actual comp: 19 others: 149355
+0.01359
+actual comp: 23 others: 149575
+0.02597
+actual comp: 23 others: 149804
+0.01687
+actual comp: 18 others: 149733
+0.0204
+actual comp: 22 others: 149054
+0.0168
+actual comp: 15 others: 149220
+0.02194
+actual comp: 23 others: 149270
+0.02507
+actual comp: 21 others: 149777
+0.01156
+actual comp: 25 others: 150021
+0.02115
+actual comp: 22 others: 149465
+0.02172
+actual comp: 18 others: 149264
+0.008643
+actual comp: 16 others: 149610
+0.01545
+actual comp: 22 others: 149844
+0.02034
+actual comp: 18 others: 149482
+0.02083
+actual comp: 24 others: 149546
+0.02393
+actual comp: 21 others: 149216
+0.01988
+actual comp: 22 others: 149274
+0.01732
+actual comp: 23 others: 149649
+0.02042
+actual comp: 22 others: 148857
+0.02098
+actual comp: 22 others: 149389
+0.01385
+actual comp: 17 others: 149196
+0.01801
+actual comp: 22 others: 149789
+0.02313
+actual comp: 13 others: 149273
+0.01658
