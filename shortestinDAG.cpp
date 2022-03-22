@@ -127,14 +127,15 @@ linexp random_linexp(){
 }
 
 double megiddo_solve(vector<vector<ledge>>& adj){
-  double bottom=0,top=inf;
-  int actual_comparison=0,dodged_comparison=0;
-  int vertices=adj.size();
-  vector<linexp> mindist(vertices);
-  vector<bool> visited(vertices,false);
+  double bottom=0,top=inf; //track interval for optimum
+  int actual_comparison=0,dodged_comparison=0; //for statistics
+  vector<linexp> mindist(adj.size()); //current shortest dist to each visited vertex
+  vector<bool> visited(adj.size(),false);
   for(int v=0; v<adj.size();v++){
     for(int i=0;i<adj[v].size();i++){
       ledge& l=adj[v][i];
+
+      //handle minimum of linexps
       if(!visited[l.dest]){
         visited[l.dest]=true;
         mindist[l.dest]=mindist[v]+l.cost;
@@ -142,22 +143,21 @@ double megiddo_solve(vector<vector<ledge>>& adj){
       else{
         dodged_comparison++;
         lmincomp cmp(mindist[l.dest],mindist[v]+l.cost);
-        if(!cmp.check_necessary)
+        if(!cmp.check_necessary) //avoid division by zero
           mindist[l.dest]=cmp.earlier;
-        else if(cmp.critical_value>top)
+        else if(cmp.critical_value>top) //eval isn't necessary
           mindist[l.dest]=cmp.earlier;
-        else if(cmp.critical_value<bottom)
+        else if(cmp.critical_value<bottom) //eval isn't necessary
           mindist[l.dest]=cmp.later;
-        else{
-
+        else{ //do eval
           vector<vector<edge>> tmpadj(adj.size());//setup for eval
-          for(int ii=0;ii<adj.size();ii++){
+          for(int ii=0;ii<adj.size();ii++){ //evaluate to numerical adjacency list
             for(int jj=0;jj<adj[ii].size();jj++){
               tmpadj[ii].push_back(adj[ii][jj].eval(cmp.critical_value));
             }
           }
-          dodged_comparison--;
-          actual_comparison++;
+          dodged_comparison--; actual_comparison++; //statistics bookkeeping
+
           double eval_crit_val=shortestpath(tmpadj);
           if(eval_crit_val>0){
             bottom=cmp.critical_value;
@@ -171,7 +171,7 @@ double megiddo_solve(vector<vector<ledge>>& adj){
       }
     }
   }
-  double sol=-mindist[vertices-1].b/mindist[vertices-1].a;
+  double sol=-mindist[adj.size()-1].b/mindist[adj.size()-1].a; //return from form f-x*g to f/g
   cout<<"actual comp: "<<actual_comparison<<" others: "<<dodged_comparison<<endl;
   return sol;
 }
@@ -179,7 +179,7 @@ double megiddo_solve(vector<vector<ledge>>& adj){
 int main(){
   cout<<setprecision(4);
   int vertices=1000;
-  for(int testcase=0;testcase<100;testcase++){
+  for(int testcase=0;testcase<10;testcase++){
     vector<vector<ledge>> adj(vertices);
     // string graph=R"ip(4 6
     // 0 1 1 2
