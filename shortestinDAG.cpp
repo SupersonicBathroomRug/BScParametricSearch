@@ -85,6 +85,42 @@ double shortestpath(vector<vector<edge>>& adj) {  // calculate length of shortes
   return dist[adj.size() - 1];
 }
 
+pair<double, double> shortestpath(vector<vector<ledge>>& adj, double delta) {  // returns pair (length of shortest path according to f-delta*g and the corresponding value of f/g)
+  vector<bool> visited(adj.size(), false);
+  vector<double> dist(adj.size(), 0);
+  vector<double> f(adj.size(), 0);
+  vector<double> g(adj.size(), 0);
+  for (int v = 0; v < adj.size(); v++) {
+    for (auto e : adj[v]) {
+      if (!visited[e.dest]) {
+        visited[e.dest] = true;
+        dist[e.dest] = dist[v] + e.cost.eval(delta);
+        f[e.dest] = f[v] + e.cost.b;
+        g[e.dest] = g[v] - e.cost.a;
+      } else {
+        double ecost = e.cost.eval(delta);
+        if ((ecost + dist[v]) < dist[e.dest]) {
+          dist[e.dest] = ecost + dist[v];
+          f[e.dest] = f[v] + e.cost.b;
+          g[e.dest] = g[v] - e.cost.a;
+        }
+      }
+    }
+  }
+  return make_pair(dist[adj.size() - 1], f[adj.size() - 1] / g[adj.size() - 1]);
+}
+
+double newtonmethod(vector<vector<ledge>>& adj, double precision = 10e-9) {  // finds minimum cost path according to f/g and returns length using Newton's method
+  double delta = inf, fdivg = 0;
+  int iterations = 0;
+  while (abs(delta) > precision) {
+    tie(delta, fdivg) = shortestpath(adj, fdivg);
+    iterations++;
+  }
+  cout << "iterations: " << iterations << endl;
+  return fdivg;
+}
+
 vector<vector<ledge>> readgraph(string s) {  // read graph from edge list starting with #vertices #edges with edges of format start end f g
   stringstream ss(s);
   int vert, edge;
@@ -133,7 +169,7 @@ linexp random_linexp() {
   return linexp(a, b);
 }
 
-double megiddo_solve(vector<vector<ledge>>& adj) {
+double megiddo_solve(vector<vector<ledge>>& adj) {   // finds minimum cost path according to f/g and returns length using parametric search
   double bottom = 0, top = inf;                      // track interval for optimum
   int actual_comparison = 0, dodged_comparison = 0;  // for statistics
   vector<linexp> mindist(adj.size());                // current shortest dist to each visited vertex
@@ -184,7 +220,7 @@ double megiddo_solve(vector<vector<ledge>>& adj) {
 
 int main() {
   cout << setprecision(4);
-  int vertices = 1000;
+  int vertices = 10000;
   for (int testcase = 0; testcase < 10; testcase++) {
     vector<vector<ledge>> adj(vertices);
     // string graph=R"ip(4 6
@@ -195,7 +231,7 @@ int main() {
     // 1 3 2 2
     // 2 3 4 8)ip";
     // adj=readgraph(graph);
-    for (int i = 0; i < vertices - 1; i++) {  //add random edges to long path
+    for (int i = 0; i < vertices - 1; i++) {  // add random edges to long path
       for (int j = i + 1; j < vertices; j++) {
         if (j == i + 1 || distribution(RNG) < 0.3) {
           adj[i].push_back(ledge(j, random_linexp()));
@@ -206,12 +242,14 @@ int main() {
 
     // find length of shortest path in f/g assuming both are positive
     double sol = megiddo_solve(adj);
-    double best = inf;
+    // double best = inf;
 
     // vector<int> path(1,0);
     // path.reserve(4);
     // cout<<"bruteforce best: "<<bruteforce_fracpaths(best,adj);
-    cout << sol << endl;  //" "<<bruteforce_fracpaths(best,adj)<<"\n";
+    cout << "Megiddo: " << sol << endl;  //" "<<bruteforce_fracpaths(best,adj)<<"\n";
+    sol = newtonmethod(adj, 1e-4);
+    cout << "Newton: " << sol << "\n----------------------" << endl;
   }
   // print_bruteforce_fracpaths(path,adj);
   return 0;
