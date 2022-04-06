@@ -7,6 +7,9 @@
 #include <string>
 #include <vector>
 
+const bool DBGOP=true;
+const bool OPCRITVALS=false;
+
 std::mt19937 RNG(42);
 std::uniform_real_distribution<> distribution(0.0, 1.0);
 
@@ -184,6 +187,7 @@ tuple<float, int, int> megiddo_solve(vector<vector<ledge>>& adj) {  // finds min
       } else {
         dodged_comparison++;
         lmincomp cmp(mindist[l.dest], mindist[v] + l.cost);
+        if(OPCRITVALS)cout<<cmp.critical_value<<"\n";
         if (!cmp.check_necessary)  // avoid division by zero
           mindist[l.dest] = cmp.earlier;
         else if (cmp.critical_value > top)  // eval isn't necessary
@@ -204,10 +208,13 @@ tuple<float, int, int> megiddo_solve(vector<vector<ledge>>& adj) {  // finds min
           if (eval_crit_val > 0) {
             bottom = cmp.critical_value;
             mindist[l.dest] = cmp.later;
+            if(DBGOP)cout<<"< ";
           } else {
             top = cmp.critical_value;
             mindist[l.dest] = cmp.earlier;
+            if(DBGOP)cout<<"> ";
           }
+          if(DBGOP) cout<<"comparison made, cv: "<<cmp.critical_value<<" bottom: "<<bottom<<" top: "<<top<<endl;
         }
       }
     }
@@ -216,10 +223,82 @@ tuple<float, int, int> megiddo_solve(vector<vector<ledge>>& adj) {  // finds min
   return make_tuple(sol, actual_comparison, dodged_comparison);
 }
 
+tuple<float, int, int,int> megiddo_solve_opt1(vector<vector<ledge>>& adj) {  // finds minimum cost path according to f/g and returns tuple(length of path, actual comparisons, dodged comparisons) using parametric search with optimization (halving interval before actual comparison)
+  double bottom = 0, top = inf;                                     // track interval for optimum
+  int actual_comparison = 0, dodged_comparison = 0, additional_comparison=0;                 // for statistics
+  vector<linexp> mindist(adj.size());                               // current shortest dist to each visited vertex
+  vector<bool> visited(adj.size(), false);
+  for (int v = 0; v < adj.size(); v++) {
+    for (int i = 0; i < adj[v].size(); i++) {
+      ledge& l = adj[v][i];
+      dodged_comparison++;
+      if (!visited[l.dest]) {
+          visited[l.dest] = true;
+          mindist[l.dest] = mindist[v] + l.cost;
+      }
+      else{ for (int j=0;j<2;j++){
+        // handle minimum of linexps
+        double mid=(top+bottom)/2;
+        lmincomp cmp(mindist[l.dest], mindist[v] + l.cost);
+        if(OPCRITVALS)cout<<cmp.critical_value<<" ";
+        double perc=(cmp.critical_value-bottom)/(top-bottom);
+        if (!cmp.check_necessary){  // avoid division by zero
+          mindist[l.dest] = cmp.earlier;
+          break;
+        }else if (cmp.critical_value > top){  // eval isn't necessary
+          mindist[l.dest] = cmp.earlier;
+          break;
+        }else if (cmp.critical_value < bottom){  // eval isn't necessary
+          mindist[l.dest] = cmp.later;
+          break;
+        }else if(j==0&&top!=inf&&(perc>0.6||perc<0.4)){
+          vector<vector<edge>> tmpadj(adj.size());   // setup for eval
+          for (int ii = 0; ii < adj.size(); ii++) {  // evaluate to numerical adjacency list
+            for (int jj = 0; jj < adj[ii].size(); jj++) {
+              tmpadj[ii].push_back(adj[ii][jj].eval(mid));
+            }
+          }
+          additional_comparison++; dodged_comparison--;
+          double eval_crit_val = shortestpath(tmpadj);
+          if (eval_crit_val > 0)
+            bottom = mid;
+          else
+            top = mid;
+          if(DBGOP) cout<<mid<<" -------comparison made, perc: "<<perc<<" bottom: "<<bottom<<" top: "<<top<<endl;
+        }
+        else {                                       // do eval
+          vector<vector<edge>> tmpadj(adj.size());   // setup for eval
+          for (int ii = 0; ii < adj.size(); ii++) {  // evaluate to numerical adjacency list
+            for (int jj = 0; jj < adj[ii].size(); jj++) {
+              tmpadj[ii].push_back(adj[ii][jj].eval(cmp.critical_value));
+            }
+          }
+          if(j==0) dodged_comparison--;
+          actual_comparison++;  // statistics bookkeeping
+
+          double eval_crit_val = shortestpath(tmpadj);
+          if (eval_crit_val > 0) {
+            bottom = cmp.critical_value;
+            mindist[l.dest] = cmp.later;
+          } else {
+            top = cmp.critical_value;
+            mindist[l.dest] = cmp.earlier;
+          }
+          if(DBGOP) cout<<cmp.critical_value<<" comparison made, perc: "<<perc<<" bottom: "<<bottom<<" top: "<<top<<endl;
+          break;
+        }
+      }
+    
+    }}
+  }
+  double sol = -mindist[adj.size() - 1].b / mindist[adj.size() - 1].a;  // return from form f-x*g to f/g
+  return make_tuple(sol, actual_comparison, dodged_comparison,additional_comparison);
+}
+
 int main() {
-  cout << setprecision(4);
-  int vertices = 100;
-  for (int testcase = 0; testcase < 10; testcase++) {
+  if(DBGOP) cout << setprecision(4);
+  int vertices = 10000;
+  for (int testcase = 0; testcase < 1; testcase++) {
     vector<vector<ledge>> adj(vertices);
     // string graph=R"ip(4 6
     // 0 1 1 2
@@ -240,15 +319,26 @@ int main() {
 
     // find length of shortest path in f/g assuming both are positive
     double sol;
-    int actual_comparison, dodged_comparison, newton_iterations;
-    
+    int actual_comparison, dodged_comparison, newton_iterations,additional_comparison;
     tie(sol, actual_comparison, dodged_comparison) = megiddo_solve(adj);
-    cout << "Megiddo: " << sol << "\n";  //" "<<bruteforce_fracpaths(best,adj)<<"\n";
-    cout << "actual comp: " << actual_comparison << " others: " << dodged_comparison << "\n" << endl;
+    if(DBGOP){
+      cout << "Megiddo: " << sol << "\n";  //" "<<bruteforce_fracpaths(best,adj)<<"\n";
+      cout << "actual comp: " << actual_comparison << " others: " << dodged_comparison << "\n" << endl;
+    }
+    // tie(sol,actual_comparison,dodged_comparison,additional_comparison)=megiddo_solve_opt1(adj);
+    // if(DBGOP){
+    //   cout << "OPTIMIZED Megiddo: " << sol << "\n";  //" "<<bruteforce_fracpaths(best,adj)<<"\n";
+    //   cout << "actual comp: " << (actual_comparison+additional_comparison) << " others: " << dodged_comparison << " for optimization: "<<additional_comparison<< "\n" << endl;
+    // }
 
-    tie(sol, newton_iterations) = newtonmethod(adj);
-    cout << "Newton: " << sol << "\n";
-    cout << "iterations: " << newton_iterations << "\n----------------------" << endl;
+    // tie(sol, newton_iterations) = newtonmethod(adj);
+    // if(DBGOP){
+    //   cout << "Newton: " << sol << "\n";
+    //   cout << "iterations: " << newton_iterations << "\n";
+    // }
+
+
+    if(DBGOP) cout<<"\n----------------------------------------"<<endl;
 
     //BRUTE FORCE FOR TESTING
     // double best = inf;
@@ -256,6 +346,7 @@ int main() {
     // path.reserve(4);
     // cout<<"bruteforce best: "<<bruteforce_fracpaths(best,adj);
     // print_bruteforce_fracpaths(path,adj);
+    cout<<endl;
   }
   return 0;
 }

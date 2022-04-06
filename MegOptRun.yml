@@ -1,0 +1,962 @@
+PS C:\Users\klcsr\Programming\Cpp\BScParametricSearch>  & 'c:\Users\klcsr\.vscode\extensions\ms-vscode.cpptools-1.9.7\debugAdapters\bin\WindowsDebugLauncher.exe' '--stdin=Microsoft-MIEngine-In-oeknkgr2.q3v' '--stdout=Microsoft-MIEngine-Out-p2v0w3c0.20u' '--stderr=Microsoft-MIEngine-Error-2bjbfary.mwt' '--pid=Microsoft-MIEngine-Pid-lzcf04ib.35i' '--dbgExe=C:\msys64\mingw64\bin\gdb.exe' '--interpreter=mi' 
+comparison made, cv: 1.258 bottom: 0 top: 1.258
+comparison made, cv: 0.7289 bottom: 0 top: 0.7289
+comparison made, cv: 0.03337 bottom: 0.03337 top: 0.7289
+comparison made, cv: 0.201 bottom: 0.03337 top: 0.201
+comparison made, cv: 0.1634 bottom: 0.03337 top: 0.1634
+comparison made, cv: 0.1413 bottom: 0.03337 top: 0.1413
+comparison made, cv: 0.07176 bottom: 0.03337 top: 0.07176
+comparison made, cv: 0.03517 bottom: 0.03517 top: 0.07176
+comparison made, cv: 0.04922 bottom: 0.04922 top: 0.07176
+comparison made, cv: 0.06318 bottom: 0.06318 top: 0.07176
+comparison made, cv: 0.06812 bottom: 0.06812 top: 0.07176
+comparison made, cv: 0.07056 bottom: 0.07056 top: 0.07176
+Megiddo: 0.07148
+actual comp: 12 others: 1432
+
+1.258 comparison made, perc: 0 bottom: 0 top: 1.258
+0.7289 comparison made, perc: 0.5794 bottom: 0 top: 0.7289
+0.3644 -------comparison made, perc: 0.04578 bottom: 0 top: 0.3644
+0.03337 comparison made, perc: 0.09157 bottom: 0.03337 top: 0.3644
+0.201 comparison made, perc: 0.5062 bottom: 0.03337 top: 0.201
+0.1172 -------comparison made, perc: 0.7759 bottom: 0.03337 top: 0.1172
+0.07176 comparison made, perc: 0.4581 bottom: 0.03337 top: 0.07176
+0.05257 -------comparison made, perc: 0.0468 bottom: 0.05257 top: 0.07176
+0.06318 comparison made, perc: 0.5527 bottom: 0.06318 top: 0.07176
+0.06812 comparison made, perc: 0.5758 bottom: 0.06812 top: 0.07176
+0.06994 -------comparison made, perc: 0.6701 bottom: 0.06994 top: 0.07176
+0.07056 comparison made, perc: 0.3402 bottom: 0.07056 top: 0.07176
+OPTIMIZED Megiddo: 0.07148
+actual comp: 8 others: 1533 for optimization: 4
+
+Newton: 0.07148
+iterations: 2
+
+----------------------------------------
+comparison made, cv: 0.4826 bottom: 0 top: 0.4826
+comparison made, cv: 0.07492 bottom: 0.07492 top: 0.4826
+comparison made, cv: 0.2765 bottom: 0.07492 top: 0.2765
+comparison made, cv: 0.1644 bottom: 0.07492 top: 0.1644
+comparison made, cv: 0.1285 bottom: 0.07492 top: 0.1285
+comparison made, cv: 0.09063 bottom: 0.09063 top: 0.1285
+comparison made, cv: 0.1059 bottom: 0.1059 top: 0.1285
+comparison made, cv: 0.1146 bottom: 0.1146 top: 0.1285
+comparison made, cv: 0.1195 bottom: 0.1146 top: 0.1195
+comparison made, cv: 0.1162 bottom: 0.1146 top: 0.1162
+comparison made, cv: 0.1148 bottom: 0.1148 top: 0.1162
+comparison made, cv: 0.1154 bottom: 0.1148 top: 0.1154
+Megiddo: 0.1154
+actual comp: 12 others: 1437
+
+0.4826 comparison made, perc: 0 bottom: 0 top: 0.4826
+0.2413 -------comparison made, perc: 0.1552 bottom: 0 top: 0.2413
+0.07492 comparison made, perc: 0.3105 bottom: 0.07492 top: 0.2413
+0.1644 comparison made, perc: 0.5378 bottom: 0.07492 top: 0.1644
+0.1285 comparison made, perc: 0.5985 bottom: 0.07492 top: 0.1285
+0.1017 -------comparison made, perc: 0.2934 bottom: 0.1017 top: 0.1285
+0.1151 -------comparison made, perc: 0.1563 bottom: 0.1151 top: 0.1285
+0.1218 -------comparison made, perc: 0.3293 bottom: 0.1151 top: 0.1218
+0.1195 comparison made, perc: 0.6585 bottom: 0.1151 top: 0.1195
+0.1173 -------comparison made, perc: 0.2535 bottom: 0.1151 top: 0.1173
+0.1162 comparison made, perc: 0.5069 bottom: 0.1151 top: 0.1162
+0.1156 -------comparison made, perc: 0.2612 bottom: 0.1151 top: 0.1156
+0.1154 comparison made, perc: 0.5223 bottom: 0.1151 top: 0.1154
+OPTIMIZED Megiddo: 0.1154
+actual comp: 7 others: 1539 for optimization: 6
+
+Newton: 0.1154
+iterations: 2
+
+----------------------------------------
+comparison made, cv: 1.714 bottom: 0 top: 1.714
+comparison made, cv: 0.1991 bottom: 0 top: 0.1991
+comparison made, cv: 0.01946 bottom: 0.01946 top: 0.1991
+comparison made, cv: 0.1204 bottom: 0.1204 top: 0.1991
+comparison made, cv: 0.1271 bottom: 0.1271 top: 0.1991
+comparison made, cv: 0.1911 bottom: 0.1271 top: 0.1911
+comparison made, cv: 0.1548 bottom: 0.1271 top: 0.1548
+comparison made, cv: 0.1407 bottom: 0.1271 top: 0.1407
+comparison made, cv: 0.1334 bottom: 0.1271 top: 0.1334
+comparison made, cv: 0.1325 bottom: 0.1271 top: 0.1325
+comparison made, cv: 0.1297 bottom: 0.1271 top: 0.1297
+comparison made, cv: 0.1281 bottom: 0.1281 top: 0.1297
+comparison made, cv: 0.1296 bottom: 0.1281 top: 0.1296
+Megiddo: 0.1289
+actual comp: 13 others: 1504
+
+1.714 comparison made, perc: 0 bottom: 0 top: 1.714
+0.8569 -------comparison made, perc: 0.1162 bottom: 0 top: 0.8569
+0.1991 comparison made, perc: 0.2323 bottom: 0 top: 0.1991
+0.09954 -------comparison made, perc: 0.09774 bottom: 0.09954 top: 0.1991
+0.1493 -------comparison made, perc: 0.2098 bottom: 0.09954 top: 0.1493
+0.1204 comparison made, perc: 0.4195 bottom: 0.1204 top: 0.1493
+0.1349 -------comparison made, perc: 0.2315 bottom: 0.1204 top: 0.1349
+0.1271 comparison made, perc: 0.4629 bottom: 0.1271 top: 0.1349
+0.131 -------comparison made, perc: 0.8171 bottom: 0.1271 top: 0.131
+0.129 -------comparison made, perc: 0.6776 bottom: 0.1271 top: 0.129
+0.1281 comparison made, perc: 0.5337 bottom: 0.1281 top: 0.129
+OPTIMIZED Megiddo: 0.1289
+actual comp: 5 others: 1608 for optimization: 6
+
+Newton: 0.1289
+iterations: 3
+
+----------------------------------------
+comparison made, cv: 1.144 bottom: 0 top: 1.144
+comparison made, cv: 1.045 bottom: 0 top: 1.045
+comparison made, cv: 0.06912 bottom: 0.06912 top: 1.045
+comparison made, cv: 0.2752 bottom: 0.06912 top: 0.2752
+comparison made, cv: 0.2301 bottom: 0.06912 top: 0.2301
+comparison made, cv: 0.118 bottom: 0.06912 top: 0.118
+comparison made, cv: 0.08958 bottom: 0.06912 top: 0.08958
+comparison made, cv: 0.0822 bottom: 0.0822 top: 0.08958
+comparison made, cv: 0.0854 bottom: 0.0854 top: 0.08958
+comparison made, cv: 0.08888 bottom: 0.0854 top: 0.08888
+comparison made, cv: 0.08746 bottom: 0.08746 top: 0.08888
+Megiddo: 0.08878
+actual comp: 11 others: 1380
+
+1.144 comparison made, perc: 0 bottom: 0 top: 1.144
+0.5721 -------comparison made, perc: 0.9138 bottom: 0 top: 0.5721
+0.286 -------comparison made, perc: 0.1208 bottom: 0 top: 0.286
+0.06912 comparison made, perc: 0.2417 bottom: 0.06912 top: 0.286
+0.1776 -------comparison made, perc: 0.95 bottom: 0.06912 top: 0.1776
+0.118 comparison made, perc: 0.4508 bottom: 0.06912 top: 0.118
+0.08958 comparison made, perc: 0.4184 bottom: 0.06912 top: 0.08958
+0.07935 -------comparison made, perc: 0.6391 bottom: 0.07935 top: 0.08958
+0.0822 comparison made, perc: 0.2782 bottom: 0.0822 top: 0.08958
+0.0854 comparison made, perc: 0.4345 bottom: 0.0854 top: 0.08958
+0.08749 -------comparison made, perc: 0.8323 bottom: 0.08749 top: 0.08958
+0.08888 comparison made, perc: 0.6646 bottom: 0.08749 top: 0.08888
+OPTIMIZED Megiddo: 0.08878
+actual comp: 7 others: 1481 for optimization: 5
+
+Newton: 0.08878
+iterations: 2
+
+----------------------------------------
+comparison made, cv: 3.286 bottom: 0 top: 3.286
+comparison made, cv: 0.6903 bottom: 0 top: 0.6903
+comparison made, cv: 0.2223 bottom: 0 top: 0.2223
+comparison made, cv: 0.1843 bottom: 0 top: 0.1843
+comparison made, cv: 0.02502 bottom: 0.02502 top: 0.1843
+comparison made, cv: 0.1025 bottom: 0.1025 top: 0.1843
+comparison made, cv: 0.1406 bottom: 0.1025 top: 0.1406
+comparison made, cv: 0.1213 bottom: 0.1213 top: 0.1406
+comparison made, cv: 0.1291 bottom: 0.1291 top: 0.1406
+comparison made, cv: 0.1391 bottom: 0.1291 top: 0.1391
+comparison made, cv: 0.1335 bottom: 0.1291 top: 0.1335
+comparison made, cv: 0.1306 bottom: 0.1291 top: 0.1306
+Megiddo: 0.1299
+actual comp: 12 others: 1453
+
+3.286 comparison made, perc: 0 bottom: 0 top: 3.286
+1.643 -------comparison made, perc: 0.2101 bottom: 0 top: 1.643
+0.6903 comparison made, perc: 0.4201 bottom: 0 top: 0.6903
+0.3452 -------comparison made, perc: 0.322 bottom: 0 top: 0.3452
+0.2223 comparison made, perc: 0.644 bottom: 0 top: 0.2223
+0.1111 -------comparison made, perc: 0.8289 bottom: 0.1111 top: 0.2223
+0.1843 comparison made, perc: 0.6578 bottom: 0.1111 top: 0.1843
+0.1406 comparison made, perc: 0.4032 bottom: 0.1111 top: 0.1406
+0.1259 -------comparison made, perc: 0.3455 bottom: 0.1259 top: 0.1406
+0.1333 -------comparison made, perc: 0.2167 bottom: 0.1259 top: 0.1333
+0.1291 comparison made, perc: 0.4334 bottom: 0.1291 top: 0.1333
+0.1312 -------comparison made, perc: 0.3666 bottom: 0.1291 top: 0.1312
+0.1306 comparison made, perc: 0.7332 bottom: 0.1291 top: 0.1306
+OPTIMIZED Megiddo: 0.1299
+actual comp: 7 others: 1556 for optimization: 6
+
+Newton: 0.1299
+iterations: 3
+
+----------------------------------------
+comparison made, cv: 0.7683 bottom: 0 top: 0.7683
+comparison made, cv: 0.5643 bottom: 0 top: 0.5643
+comparison made, cv: 0.2876 bottom: 0 top: 0.2876
+comparison made, cv: 0.2704 bottom: 0 top: 0.2704
+comparison made, cv: 0.08925 bottom: 0.08925 top: 0.2704
+comparison made, cv: 0.2548 bottom: 0.08925 top: 0.2548
+comparison made, cv: 0.1436 bottom: 0.1436 top: 0.2548
+comparison made, cv: 0.1507 bottom: 0.1507 top: 0.2548
+comparison made, cv: 0.1878 bottom: 0.1878 top: 0.2548
+comparison made, cv: 0.2244 bottom: 0.2244 top: 0.2548
+comparison made, cv: 0.2361 bottom: 0.2244 top: 0.2361
+comparison made, cv: 0.2356 bottom: 0.2244 top: 0.2356
+comparison made, cv: 0.2349 bottom: 0.2244 top: 0.2349
+comparison made, cv: 0.2244 bottom: 0.2244 top: 0.2349
+comparison made, cv: 0.2296 bottom: 0.2244 top: 0.2296
+comparison made, cv: 0.2293 bottom: 0.2293 top: 0.2296
+Megiddo: 0.2294
+actual comp: 16 others: 1425
+
+0.7683 comparison made, perc: 0 bottom: 0 top: 0.7683
+0.3842 -------comparison made, perc: 0.7344 bottom: 0 top: 0.3842
+0.1921 -------comparison made, perc: 0.7487 bottom: 0.1921 top: 0.3842
+0.2876 comparison made, perc: 0.4975 bottom: 0.1921 top: 0.2876
+0.2399 -------comparison made, perc: 0.8198 bottom: 0.1921 top: 0.2399
+0.216 -------comparison made, perc: 0.6764 bottom: 0.216 top: 0.2399
+0.2244 comparison made, perc: 0.3528 bottom: 0.2244 top: 0.2399
+0.2321 -------comparison made, perc: 0.7559 bottom: 0.2244 top: 0.2321
+0.2283 -------comparison made, perc: 0.003792 bottom: 0.2283 top: 0.2321
+0.2302 -------comparison made, perc: 0.3453 bottom: 0.2283 top: 0.2302
+0.2296 comparison made, perc: 0.6906 bottom: 0.2283 top: 0.2296
+0.2289 -------comparison made, perc: 0.7774 bottom: 0.2289 top: 0.2296
+0.2293 comparison made, perc: 0.5547 bottom: 0.2293 top: 0.2296
+OPTIMIZED Megiddo: 0.2294
+actual comp: 5 others: 1531 for optimization: 8
+
+Newton: 0.2294
+iterations: 4
+
+----------------------------------------
+comparison made, cv: 0.965 bottom: 0 top: 0.965
+comparison made, cv: 0.4086 bottom: 0 top: 0.4086
+comparison made, cv: 0.1871 bottom: 0 top: 0.1871
+comparison made, cv: 0.0269 bottom: 0.0269 top: 0.1871
+comparison made, cv: 0.04955 bottom: 0.04955 top: 0.1871
+comparison made, cv: 0.1339 bottom: 0.04955 top: 0.1339
+comparison made, cv: 0.1302 bottom: 0.04955 top: 0.1302
+comparison made, cv: 0.08613 bottom: 0.08613 top: 0.1302
+comparison made, cv: 0.08889 bottom: 0.08889 top: 0.1302
+comparison made, cv: 0.1021 bottom: 0.1021 top: 0.1302
+comparison made, cv: 0.1125 bottom: 0.1125 top: 0.1302
+comparison made, cv: 0.1204 bottom: 0.1204 top: 0.1302
+comparison made, cv: 0.1287 bottom: 0.1204 top: 0.1287
+comparison made, cv: 0.1269 bottom: 0.1269 top: 0.1287
+Megiddo: 0.1269
+actual comp: 14 others: 1397
+
+0.965 comparison made, perc: 0 bottom: 0 top: 0.965
+0.4086 comparison made, perc: 0.4234 bottom: 0 top: 0.4086
+0.1871 comparison made, perc: 0.458 bottom: 0 top: 0.1871
+0.09357 -------comparison made, perc: 0.1437 bottom: 0.09357 top: 0.1871
+0.1339 comparison made, perc: 0.4311 bottom: 0.09357 top: 0.1339
+0.1137 -------comparison made, perc: 0.9073 bottom: 0.1137 top: 0.1339
+0.1302 comparison made, perc: 0.8147 bottom: 0.1137 top: 0.1302
+0.1204 comparison made, perc: 0.4039 bottom: 0.1204 top: 0.1302
+0.1253 -------comparison made, perc: 0.8494 bottom: 0.1253 top: 0.1302
+0.1287 comparison made, perc: 0.6988 bottom: 0.1253 top: 0.1287
+0.1269 comparison made, perc: 0.4679 bottom: 0.1269 top: 0.1287
+OPTIMIZED Megiddo: 0.1269
+actual comp: 8 others: 1501 for optimization: 3
+
+Newton: 0.1269
+iterations: 3
+
+----------------------------------------
+comparison made, cv: 0.6886 bottom: 0 top: 0.6886
+comparison made, cv: 0.2795 bottom: 0 top: 0.2795
+comparison made, cv: 0.07086 bottom: 0.07086 top: 0.2795
+comparison made, cv: 0.1057 bottom: 0.1057 top: 0.2795
+comparison made, cv: 0.1127 bottom: 0.1127 top: 0.2795
+comparison made, cv: 0.1864 bottom: 0.1127 top: 0.1864
+comparison made, cv: 0.1738 bottom: 0.1127 top: 0.1738
+comparison made, cv: 0.1681 bottom: 0.1127 top: 0.1681
+comparison made, cv: 0.1467 bottom: 0.1467 top: 0.1681
+comparison made, cv: 0.1635 bottom: 0.1467 top: 0.1635
+comparison made, cv: 0.1479 bottom: 0.1479 top: 0.1635
+comparison made, cv: 0.15 bottom: 0.15 top: 0.1635
+comparison made, cv: 0.1586 bottom: 0.1586 top: 0.1635
+comparison made, cv: 0.1629 bottom: 0.1629 top: 0.1635
+Megiddo: 0.1634
+actual comp: 14 others: 1413
+
+0.6886 comparison made, perc: 0 bottom: 0 top: 0.6886
+0.2795 comparison made, perc: 0.4059 bottom: 0 top: 0.2795
+0.1397 -------comparison made, perc: 0.2536 bottom: 0.1397 top: 0.2795
+0.2096 -------comparison made, perc: 0.3341 bottom: 0.1397 top: 0.2096
+0.1864 comparison made, perc: 0.6683 bottom: 0.1397 top: 0.1864
+0.1631 -------comparison made, perc: 0.7301 bottom: 0.1631 top: 0.1864
+0.1738 comparison made, perc: 0.4601 bottom: 0.1631 top: 0.1738
+0.1681 comparison made, perc: 0.4707 bottom: 0.1631 top: 0.1681
+0.1656 -------comparison made, perc: 0.08778 bottom: 0.1631 top: 0.1656
+0.1635 comparison made, perc: 0.1756 bottom: 0.1631 top: 0.1635
+0.1154 comparison made, perc: 0.5223 bottom: 0.1151 top: 0.1154
+OPTIMIZED Megiddo: 0.1154
+actual comp: 13 others: 1539 for optimization: 6
+
+Newton: 0.1154
+iterations: 2
+
+----------------------------------------
+comparison made, cv: 1.714 bottom: 0 top: 1.714
+comparison made, cv: 0.1991 bottom: 0 top: 0.1991
+comparison made, cv: 0.01946 bottom: 0.01946 top: 0.1991
+comparison made, cv: 0.1204 bottom: 0.1204 top: 0.1991
+comparison made, cv: 0.1271 bottom: 0.1271 top: 0.1991
+comparison made, cv: 0.1911 bottom: 0.1271 top: 0.1911
+comparison made, cv: 0.1548 bottom: 0.1271 top: 0.1548
+comparison made, cv: 0.1407 bottom: 0.1271 top: 0.1407
+comparison made, cv: 0.1334 bottom: 0.1271 top: 0.1334
+comparison made, cv: 0.1325 bottom: 0.1271 top: 0.1325
+comparison made, cv: 0.1297 bottom: 0.1271 top: 0.1297
+comparison made, cv: 0.1281 bottom: 0.1281 top: 0.1297
+comparison made, cv: 0.1296 bottom: 0.1281 top: 0.1296
+Megiddo: 0.1289
+actual comp: 13 others: 1504
+
+1.714 comparison made, perc: 0 bottom: 0 top: 1.714
+0.8569 -------comparison made, perc: 0.1162 bottom: 0 top: 0.8569
+0.1991 comparison made, perc: 0.2323 bottom: 0 top: 0.1991
+0.09954 -------comparison made, perc: 0.09774 bottom: 0.09954 top: 0.1991
+0.1493 -------comparison made, perc: 0.2098 bottom: 0.09954 top: 0.1493
+0.1204 comparison made, perc: 0.4195 bottom: 0.1204 top: 0.1493
+0.1349 -------comparison made, perc: 0.2315 bottom: 0.1204 top: 0.1349
+0.1271 comparison made, perc: 0.4629 bottom: 0.1271 top: 0.1349
+0.131 -------comparison made, perc: 0.8171 bottom: 0.1271 top: 0.131
+0.129 -------comparison made, perc: 0.6776 bottom: 0.1271 top: 0.129
+0.1281 comparison made, perc: 0.5337 bottom: 0.1281 top: 0.129
+OPTIMIZED Megiddo: 0.1289
+actual comp: 11 others: 1608 for optimization: 6
+
+Newton: 0.1289
+iterations: 3
+
+----------------------------------------
+comparison made, cv: 1.144 bottom: 0 top: 1.144
+comparison made, cv: 1.045 bottom: 0 top: 1.045
+comparison made, cv: 0.06912 bottom: 0.06912 top: 1.045
+comparison made, cv: 0.2752 bottom: 0.06912 top: 0.2752
+comparison made, cv: 0.2301 bottom: 0.06912 top: 0.2301
+comparison made, cv: 0.118 bottom: 0.06912 top: 0.118
+comparison made, cv: 0.08958 bottom: 0.06912 top: 0.08958
+comparison made, cv: 0.0822 bottom: 0.0822 top: 0.08958
+comparison made, cv: 0.0854 bottom: 0.0854 top: 0.08958
+comparison made, cv: 0.08888 bottom: 0.0854 top: 0.08888
+comparison made, cv: 0.08746 bottom: 0.08746 top: 0.08888
+Megiddo: 0.08878
+actual comp: 11 others: 1380
+
+1.144 comparison made, perc: 0 bottom: 0 top: 1.144
+0.5721 -------comparison made, perc: 0.9138 bottom: 0 top: 0.5721
+0.286 -------comparison made, perc: 0.1208 bottom: 0 top: 0.286
+0.06912 comparison made, perc: 0.2417 bottom: 0.06912 top: 0.286
+0.1776 -------comparison made, perc: 0.95 bottom: 0.06912 top: 0.1776
+0.118 comparison made, perc: 0.4508 bottom: 0.06912 top: 0.118
+0.08958 comparison made, perc: 0.4184 bottom: 0.06912 top: 0.08958
+0.07935 -------comparison made, perc: 0.6391 bottom: 0.07935 top: 0.08958
+0.0822 comparison made, perc: 0.2782 bottom: 0.0822 top: 0.08958
+0.0854 comparison made, perc: 0.4345 bottom: 0.0854 top: 0.08958
+0.08749 -------comparison made, perc: 0.8323 bottom: 0.08749 top: 0.08958
+0.08888 comparison made, perc: 0.6646 bottom: 0.08749 top: 0.08888
+OPTIMIZED Megiddo: 0.08878
+actual comp: 12 others: 1481 for optimization: 5
+
+Newton: 0.08878
+iterations: 2
+
+----------------------------------------
+comparison made, cv: 3.286 bottom: 0 top: 3.286
+comparison made, cv: 0.6903 bottom: 0 top: 0.6903
+comparison made, cv: 0.2223 bottom: 0 top: 0.2223
+comparison made, cv: 0.1843 bottom: 0 top: 0.1843
+comparison made, cv: 0.02502 bottom: 0.02502 top: 0.1843
+comparison made, cv: 0.1025 bottom: 0.1025 top: 0.1843
+comparison made, cv: 0.1406 bottom: 0.1025 top: 0.1406
+comparison made, cv: 0.1213 bottom: 0.1213 top: 0.1406
+comparison made, cv: 0.1291 bottom: 0.1291 top: 0.1406
+comparison made, cv: 0.1391 bottom: 0.1291 top: 0.1391
+comparison made, cv: 0.1335 bottom: 0.1291 top: 0.1335
+comparison made, cv: 0.1306 bottom: 0.1291 top: 0.1306
+Megiddo: 0.1299
+actual comp: 12 others: 1453
+
+3.286 comparison made, perc: 0 bottom: 0 top: 3.286
+1.643 -------comparison made, perc: 0.2101 bottom: 0 top: 1.643
+0.6903 comparison made, perc: 0.4201 bottom: 0 top: 0.6903
+0.3452 -------comparison made, perc: 0.322 bottom: 0 top: 0.3452
+0.2223 comparison made, perc: 0.644 bottom: 0 top: 0.2223
+0.1111 -------comparison made, perc: 0.8289 bottom: 0.1111 top: 0.2223
+0.1843 comparison made, perc: 0.6578 bottom: 0.1111 top: 0.1843
+0.1406 comparison made, perc: 0.4032 bottom: 0.1111 top: 0.1406
+0.1259 -------comparison made, perc: 0.3455 bottom: 0.1259 top: 0.1406
+0.1333 -------comparison made, perc: 0.2167 bottom: 0.1259 top: 0.1333
+0.1291 comparison made, perc: 0.4334 bottom: 0.1291 top: 0.1333
+0.1312 -------comparison made, perc: 0.3666 bottom: 0.1291 top: 0.1312
+0.1306 comparison made, perc: 0.7332 bottom: 0.1291 top: 0.1306
+OPTIMIZED Megiddo: 0.1299
+actual comp: 13 others: 1556 for optimization: 6
+
+Newton: 0.1299
+iterations: 3
+
+----------------------------------------
+comparison made, cv: 0.7683 bottom: 0 top: 0.7683
+comparison made, cv: 0.5643 bottom: 0 top: 0.5643
+comparison made, cv: 0.2876 bottom: 0 top: 0.2876
+comparison made, cv: 0.2704 bottom: 0 top: 0.2704
+comparison made, cv: 0.08925 bottom: 0.08925 top: 0.2704
+comparison made, cv: 0.2548 bottom: 0.08925 top: 0.2548
+comparison made, cv: 0.1436 bottom: 0.1436 top: 0.2548
+comparison made, cv: 0.1507 bottom: 0.1507 top: 0.2548
+comparison made, cv: 0.1878 bottom: 0.1878 top: 0.2548
+comparison made, cv: 0.2244 bottom: 0.2244 top: 0.2548
+comparison made, cv: 0.2361 bottom: 0.2244 top: 0.2361
+comparison made, cv: 0.2356 bottom: 0.2244 top: 0.2356
+comparison made, cv: 0.2349 bottom: 0.2244 top: 0.2349
+comparison made, cv: 0.2244 bottom: 0.2244 top: 0.2349
+comparison made, cv: 0.2296 bottom: 0.2244 top: 0.2296
+comparison made, cv: 0.2293 bottom: 0.2293 top: 0.2296
+Megiddo: 0.2294
+actual comp: 16 others: 1425
+
+0.7683 comparison made, perc: 0 bottom: 0 top: 0.7683
+0.3842 -------comparison made, perc: 0.7344 bottom: 0 top: 0.3842
+0.1921 -------comparison made, perc: 0.7487 bottom: 0.1921 top: 0.3842
+0.2876 comparison made, perc: 0.4975 bottom: 0.1921 top: 0.2876
+0.2399 -------comparison made, perc: 0.8198 bottom: 0.1921 top: 0.2399
+0.216 -------comparison made, perc: 0.6764 bottom: 0.216 top: 0.2399
+0.2244 comparison made, perc: 0.3528 bottom: 0.2244 top: 0.2399
+0.2321 -------comparison made, perc: 0.7559 bottom: 0.2244 top: 0.2321
+0.2283 -------comparison made, perc: 0.003792 bottom: 0.2283 top: 0.2321
+0.2302 -------comparison made, perc: 0.3453 bottom: 0.2283 top: 0.2302
+0.2296 comparison made, perc: 0.6906 bottom: 0.2283 top: 0.2296
+0.2289 -------comparison made, perc: 0.7774 bottom: 0.2289 top: 0.2296
+0.2293 comparison made, perc: 0.5547 bottom: 0.2293 top: 0.2296
+OPTIMIZED Megiddo: 0.2294
+actual comp: 13 others: 1531 for optimization: 8
+
+Newton: 0.2294
+iterations: 4
+
+----------------------------------------
+comparison made, cv: 0.965 bottom: 0 top: 0.965
+comparison made, cv: 0.4086 bottom: 0 top: 0.4086
+comparison made, cv: 0.1871 bottom: 0 top: 0.1871
+comparison made, cv: 0.0269 bottom: 0.0269 top: 0.1871
+comparison made, cv: 0.04955 bottom: 0.04955 top: 0.1871
+comparison made, cv: 0.1339 bottom: 0.04955 top: 0.1339
+comparison made, cv: 0.1302 bottom: 0.04955 top: 0.1302
+comparison made, cv: 0.08613 bottom: 0.08613 top: 0.1302
+comparison made, cv: 0.08889 bottom: 0.08889 top: 0.1302
+comparison made, cv: 0.1021 bottom: 0.1021 top: 0.1302
+comparison made, cv: 0.1125 bottom: 0.1125 top: 0.1302
+comparison made, cv: 0.1204 bottom: 0.1204 top: 0.1302
+comparison made, cv: 0.1287 bottom: 0.1204 top: 0.1287
+comparison made, cv: 0.1269 bottom: 0.1269 top: 0.1287
+Megiddo: 0.1269
+actual comp: 14 others: 1397
+
+0.965 comparison made, perc: 0 bottom: 0 top: 0.965
+0.4086 comparison made, perc: 0.4234 bottom: 0 top: 0.4086
+0.1871 comparison made, perc: 0.458 bottom: 0 top: 0.1871
+0.09357 -------comparison made, perc: 0.1437 bottom: 0.09357 top: 0.1871
+0.1339 comparison made, perc: 0.4311 bottom: 0.09357 top: 0.1339
+0.1137 -------comparison made, perc: 0.9073 bottom: 0.1137 top: 0.1339
+0.1302 comparison made, perc: 0.8147 bottom: 0.1137 top: 0.1302
+0.1204 comparison made, perc: 0.4039 bottom: 0.1204 top: 0.1302
+0.1253 -------comparison made, perc: 0.8494 bottom: 0.1253 top: 0.1302
+0.1287 comparison made, perc: 0.6988 bottom: 0.1253 top: 0.1287
+0.1269 comparison made, perc: 0.4679 bottom: 0.1269 top: 0.1287
+OPTIMIZED Megiddo: 0.1269
+actual comp: 11 others: 1501 for optimization: 3
+
+Newton: 0.1269
+iterations: 3
+
+----------------------------------------
+comparison made, cv: 0.6886 bottom: 0 top: 0.6886
+comparison made, cv: 0.2795 bottom: 0 top: 0.2795
+comparison made, cv: 0.07086 bottom: 0.07086 top: 0.2795
+comparison made, cv: 0.1057 bottom: 0.1057 top: 0.2795
+comparison made, cv: 0.1127 bottom: 0.1127 top: 0.2795
+comparison made, cv: 0.1864 bottom: 0.1127 top: 0.1864
+comparison made, cv: 0.1738 bottom: 0.1127 top: 0.1738
+comparison made, cv: 0.1681 bottom: 0.1127 top: 0.1681
+comparison made, cv: 0.1467 bottom: 0.1467 top: 0.1681
+comparison made, cv: 0.1635 bottom: 0.1467 top: 0.1635
+comparison made, cv: 0.1479 bottom: 0.1479 top: 0.1635
+comparison made, cv: 0.15 bottom: 0.15 top: 0.1635
+comparison made, cv: 0.1586 bottom: 0.1586 top: 0.1635
+comparison made, cv: 0.1629 bottom: 0.1629 top: 0.1635
+Megiddo: 0.1634
+actual comp: 14 others: 1413
+
+0.6886 comparison made, perc: 0 bottom: 0 top: 0.6886
+0.2795 comparison made, perc: 0.4059 bottom: 0 top: 0.2795
+0.1397 -------comparison made, perc: 0.2536 bottom: 0.1397 top: 0.2795
+0.2096 -------comparison made, perc: 0.3341 bottom: 0.1397 top: 0.2096
+0.1864 comparison made, perc: 0.6683 bottom: 0.1397 top: 0.1864
+0.1631 -------comparison made, perc: 0.7301 bottom: 0.1631 top: 0.1864
+0.1738 comparison made, perc: 0.4601 bottom: 0.1631 top: 0.1738
+0.1681 comparison made, perc: 0.4707 bottom: 0.1631 top: 0.1681
+0.1656 -------comparison made, perc: 0.08778 bottom: 0.1631 top: 0.1656
+0.1635 comparison made, perc: 0.1756 bottom: 0.1631 top: 0.1635
+OPTIMIZED Megiddo: 0.1634
+actual comp: 10 others: 1519 for optimization: 4
+
+Newton: 0.1634
+iterations: 6
+
+----------------------------------------
+comparison made, cv: 75.65 bottom: 0 top: 75.65
+comparison made, cv: 2.469 bottom: 0 top: 2.469
+comparison made, cv: 1.27 bottom: 0 top: 1.27
+comparison made, cv: 0.7767 bottom: 0 top: 0.7767
+comparison made, cv: 0.3928 bottom: 0 top: 0.3928
+comparison made, cv: 0.2447 bottom: 0 top: 0.2447
+comparison made, cv: 0.07988 bottom: 0.07988 top: 0.2447
+comparison made, cv: 0.1446 bottom: 0.07988 top: 0.1446
+comparison made, cv: 0.1219 bottom: 0.1219 top: 0.1446
+comparison made, cv: 0.1372 bottom: 0.1219 top: 0.1372
+comparison made, cv: 0.1254 bottom: 0.1219 top: 0.1254
+comparison made, cv: 0.1219 bottom: 0.1219 top: 0.1254
+comparison made, cv: 0.1252 bottom: 0.1219 top: 0.1252
+comparison made, cv: 0.1236 bottom: 0.1236 top: 0.1252
+comparison made, cv: 0.125 bottom: 0.1236 top: 0.125
+comparison made, cv: 0.1244 bottom: 0.1244 top: 0.125
+comparison made, cv: 0.125 bottom: 0.1244 top: 0.125
+Megiddo: 0.1249
+actual comp: 17 others: 1454
+
+75.65 comparison made, perc: 0 bottom: 0 top: 75.65
+37.82 -------comparison made, perc: 0.03264 bottom: 0 top: 37.82
+ingw64\bin\gdb.exe' '--interpreter=mi'
+comparison made, cv: 0.8367 bottom: 0 top: 0.8367
+comparison made, cv: 0.452 bottom: 0 top: 0.452
+comparison made, cv: 0.4374 bottom: 0 top: 0.4374
+comparison made, cv: 0.1346 bottom: 0 top: 0.1346
+comparison made, cv: 0.1109 bottom: 0 top: 0.1109
+comparison made, cv: 0.07124 bottom: 0 top: 0.07124
+comparison made, cv: 0.0268 bottom: 0 top: 0.0268
+comparison made, cv: 0.003736 bottom: 0 top: 0.003736
+comparison made, cv: 0.0005401 bottom: 0.0005401 top: 0.003736
+comparison made, cv: 0.00165 bottom: 0.00165 top: 0.003736
+comparison made, cv: 0.003105 bottom: 0.00165 top: 0.003105
+comparison made, cv: 0.002423 bottom: 0.002423 top: 0.003105
+comparison made, cv: 0.002465 bottom: 0.002465 top: 0.003105
+comparison made, cv: 0.002771 bottom: 0.002771 top: 0.003105
+comparison made, cv: 0.002975 bottom: 0.002771 top: 0.002975
+comparison made, cv: 0.002831 bottom: 0.002831 top: 0.002975
+comparison made, cv: 0.002904 bottom: 0.002904 top: 0.002975
+comparison made, cv: 0.002932 bottom: 0.002904 top: 0.002932
+comparison made, cv: 0.00292 bottom: 0.00292 top: 0.002932
+comparison made, cv: 0.00293 bottom: 0.00292 top: 0.00293
+comparison made, cv: 0.002926 bottom: 0.00292 top: 0.002926
+comparison made, cv: 0.002922 bottom: 0.002922 top: 0.002926
+comparison made, cv: 0.002923 bottom: 0.002923 top: 0.002926
+comparison made, cv: 0.002923 bottom: 0.002923 top: 0.002926
+comparison made, cv: 0.002926 bottom: 0.002923 top: 0.002926
+comparison made, cv: 0.002925 bottom: 0.002923 top: 0.002925
+comparison made, cv: 0.002924 bottom: 0.002924 top: 0.002925
+comparison made, cv: 0.002925 bottom: 0.002925 top: 0.002925
+comparison made, cv: 0.002925 bottom: 0.002925 top: 0.002925
+comparison made, cv: 0.002925 bottom: 0.002925 top: 0.002925
+Megiddo: 0.002925
+actual comp: 30 others: 14993511
+
+0.8367 comparison made, perc: 0 bottom: 0 top: 0.8367
+0.452 comparison made, perc: 0.5402 bottom: 0 top: 0.452
+0.226 -------comparison made, perc: 0.9678 bottom: 0 top: 0.226
+0.1346 comparison made, perc: 0.5954 bottom: 0 top: 0.1346
+0.06728 -------comparison made, perc: 0.8243 bottom: 0 top: 0.06728
+0.03364 -------comparison made, perc: 0.3983 bottom: 0 top: 0.03364
+0.0268 comparison made, perc: 0.7966 bottom: 0 top: 0.0268
+0.0134 -------comparison made, perc: 0.1394 bottom: 0 top: 0.0134
+0.003736 comparison made, perc: 0.2788 bottom: 0 top: 0.003736
+0.001868 -------comparison made, perc: 0.1446 bottom: 0.001868 top: 0.003736
+0.002802 -------comparison made, perc: 0.6622 bottom: 0.002802 top: 0.003736
+0.003105 comparison made, perc: 0.3243 bottom: 0.002802 top: 0.003105
+0.002975 comparison made, perc: 0.5728 bottom: 0.002802 top: 0.002975
+0.002889 -------comparison made, perc: 0.1699 bottom: 0.002889 top: 0.002975
+0.002932 -------comparison made, perc: 0.175 bottom: 0.002889 top: 0.002932
+0.002904 comparison made, perc: 0.3501 bottom: 0.002904 top: 0.002932
+0.002918 -------comparison made, perc: 0.9898 bottom: 0.002918 top: 0.002932
+0.002932 comparison made, perc: 0.9797 bottom: 0.002918 top: 0.002932
+0.002925 -------comparison made, perc: 0.1596 bottom: 0.002925 top: 0.002932
+0.002928 -------comparison made, perc: 0.8127 bottom: 0.002925 top: 0.002928
+0.002927 -------comparison made, perc: 0.3639 bottom: 0.002925 top: 0.002927
+0.002926 comparison made, perc: 0.7278 bottom: 0.002925 top: 0.002926
+0.002925 -------comparison made, perc: 0.8177 bottom: 0.002925 top: 0.002925
+0.002925 -------comparison made, perc: 0.9254 bottom: 0.002925 top: 0.002925
+0.002925 comparison made, perc: 0.8507 bottom: 0.002925 top: 0.002925
+0.002925 -------comparison made, perc: 0.07323 bottom: 0.002925 top: 0.002925
+0.002925 -------comparison made, perc: 0.05948 bottom: 0.002925 top: 0.002925
+OPTIMIZED Megiddo: 0.002925
+actual comp: 27 others: 15003520 for optimization: 16
+
+Newton: 0.002925
+iterations: 2
+
+----------------------------------------
+comparison made, cv: 0.4614 bottom: 0 top: 0.4614
+comparison made, cv: 0.2431 bottom: 0 top: 0.2431
+comparison made, cv: 0.1536 bottom: 0 top: 0.1536
+comparison made, cv: 0.07131 bottom: 0 top: 0.07131
+comparison made, cv: 0.01641 bottom: 0 top: 0.01641
+comparison made, cv: 0.004258 bottom: 0 top: 0.004258
+comparison made, cv: 0.001536 bottom: 0.001536 top: 0.004258
+comparison made, cv: 0.00281 bottom: 0.00281 top: 0.004258
+comparison made, cv: 0.003466 bottom: 0.00281 top: 0.003466
+comparison made, cv: 0.003428 bottom: 0.00281 top: 0.003428
+comparison made, cv: 0.002811 bottom: 0.002811 top: 0.003428
+comparison made, cv: 0.003081 bottom: 0.003081 top: 0.003428
+comparison made, cv: 0.003151 bottom: 0.003151 top: 0.003428
+comparison made, cv: 0.003223 bottom: 0.003151 top: 0.003223
+comparison made, cv: 0.003194 bottom: 0.003151 top: 0.003194
+comparison made, cv: 0.00316 bottom: 0.00316 top: 0.003194
+comparison made, cv: 0.003174 bottom: 0.00316 top: 0.003174
+comparison made, cv: 0.003165 bottom: 0.00316 top: 0.003165
+comparison made, cv: 0.003162 bottom: 0.00316 top: 0.003162
+comparison made, cv: 0.00316 bottom: 0.00316 top: 0.003162
+comparison made, cv: 0.003161 bottom: 0.00316 top: 0.003161
+comparison made, cv: 0.003161 bottom: 0.00316 top: 0.003161
+comparison made, cv: 0.00316 bottom: 0.00316 top: 0.003161
+comparison made, cv: 0.00316 bottom: 0.00316 top: 0.00316
+comparison made, cv: 0.00316 bottom: 0.00316 top: 0.00316
+Megiddo: 0.00316
+actual comp: 25 others: 14994779
+
+0.4614 comparison made, perc: 0 bottom: 0 top: 0.4614
+0.2431 comparison made, perc: 0.5268 bottom: 0 top: 0.2431
+0.1215 -------comparison made, perc: 0.6318 bottom: 0 top: 0.1215
+0.07131 comparison made, perc: 0.5868 bottom: 0 top: 0.07131
+0.03566 -------comparison made, perc: 0.2301 bottom: 0 top: 0.03566
+0.01641 comparison made, perc: 0.4602 bottom: 0 top: 0.01641
+0.008204 -------comparison made, perc: 0.2595 bottom: 0 top: 0.008204
+0.004258 comparison made, perc: 0.5189 bottom: 0 top: 0.004258
+0.002129 -------comparison made, perc: 0.3607 bottom: 0.002129 top: 0.004258
+0.003193 -------comparison made, perc: 0.32 bottom: 0.002129 top: 0.003193
+0.00281 comparison made, perc: 0.64 bottom: 0.00281 top: 0.003193
+0.003002 -------comparison made, perc: 0.001911 bottom: 0.003002 top: 0.003193
+0.003081 comparison made, perc: 0.4156 bottom: 0.003081 top: 0.003193
+0.003137 -------comparison made, perc: 0.6201 bottom: 0.003137 top: 0.003193
+0.003151 comparison made, perc: 0.2403 bottom: 0.003151 top: 0.003193
+0.003172 -------comparison made, perc: 0.2105 bottom: 0.003151 top: 0.003172
+0.00316 comparison made, perc: 0.4211 bottom: 0.00316 top: 0.003172
+0.003165 comparison made, perc: 0.4485 bottom: 0.00316 top: 0.003165
+0.003162 comparison made, perc: 0.5202 bottom: 0.00316 top: 0.003162
+0.003161 -------comparison made, perc: 0.09658 bottom: 0.00316 top: 0.003161
+0.00316 comparison made, perc: 0.1932 bottom: 0.00316 top: 0.003161
+0.00316 -------comparison made, perc: 0.6521 bottom: 0.00316 top: 0.00316
+0.00316 -------comparison made, perc: 0.2817 bottom: 0.00316 top: 0.00316
+0.00316 comparison made, perc: 0.5634 bottom: 0.00316 top: 0.00316
+0.00316 -------comparison made, perc: 0.7482 bottom: 0.00316 top: 0.00316
+0.00316 comparison made, perc: 0.4963 bottom: 0.00316 top: 0.00316
+OPTIMIZED Megiddo: 0.00316
+actual comp: 26 others: 15004785 for optimization: 12
+
+Newton: 0.00316
+iterations: 5
+
+----------------------------------------
+comparison made, cv: 0.3727 bottom: 0 top: 0.3727
+comparison made, cv: 0.3068 bottom: 0 top: 0.3068
+comparison made, cv: 0.2833 bottom: 0 top: 0.2833
+comparison made, cv: 0.1014 bottom: 0 top: 0.1014
+comparison made, cv: 0.05829 bottom: 0 top: 0.05829
+comparison made, cv: 0.00207 bottom: 0.00207 top: 0.05829
+comparison made, cv: 0.003953 bottom: 0.00207 top: 0.003953
+comparison made, cv: 0.003284 bottom: 0.003284 top: 0.003953
+comparison made, cv: 0.003676 bottom: 0.003676 top: 0.003953
+comparison made, cv: 0.003751 bottom: 0.003751 top: 0.003953
+comparison made, cv: 0.003923 bottom: 0.003751 top: 0.003923
+comparison made, cv: 0.003817 bottom: 0.003751 top: 0.003817
+comparison made, cv: 0.003773 bottom: 0.003773 top: 0.003817
+comparison made, cv: 0.003775 bottom: 0.003775 top: 0.003817
+comparison made, cv: 0.00379 bottom: 0.00379 top: 0.003817
+comparison made, cv: 0.003792 bottom: 0.003792 top: 0.003817
+comparison made, cv: 0.003803 bottom: 0.003803 top: 0.003817
+comparison made, cv: 0.003804 bottom: 0.003804 top: 0.003817
+comparison made, cv: 0.003807 bottom: 0.003807 top: 0.003817
+comparison made, cv: 0.003808 bottom: 0.003808 top: 0.003817
+comparison made, cv: 0.003811 bottom: 0.003811 top: 0.003817
+comparison made, cv: 0.003812 bottom: 0.003811 top: 0.003812
+comparison made, cv: 0.003812 bottom: 0.003812 top: 0.003812
+comparison made, cv: 0.003812 bottom: 0.003812 top: 0.003812
+Megiddo: 0.003812
+actual comp: 24 others: 14997598
+
+0.3727 comparison made, perc: 0 bottom: 0 top: 0.3727
+0.1864 -------comparison made, perc: 0.823 bottom: 0 top: 0.1864
+0.1014 comparison made, perc: 0.544 bottom: 0 top: 0.1014
+0.05829 comparison made, perc: 0.575 bottom: 0 top: 0.05829
+0.02915 -------comparison made, perc: 0.03551 bottom: 0 top: 0.02915
+0.00207 comparison made, perc: 0.07103 bottom: 0.00207 top: 0.02915
+0.01561 -------comparison made, perc: 0.06952 bottom: 0.00207 top: 0.01561
+0.003953 comparison made, perc: 0.139 bottom: 0.00207 top: 0.003953
+0.003011 -------comparison made, perc: 0.6448 bottom: 0.003011 top: 0.003953
+0.003284 comparison made, perc: 0.2896 bottom: 0.003284 top: 0.003953
+0.003676 comparison made, perc: 0.5864 bottom: 0.003676 top: 0.003953
+0.003814 -------comparison made, perc: 0.2725 bottom: 0.003676 top: 0.003814
+0.003751 comparison made, perc: 0.545 bottom: 0.003751 top: 0.003814
+0.003783 -------comparison made, perc: 0.3402 bottom: 0.003783 top: 0.003814
+0.003799 -------comparison made, perc: 0.2432 bottom: 0.003799 top: 0.003814
+0.003806 -------comparison made, perc: 0.2968 bottom: 0.003806 top: 0.003814
+0.00381 -------comparison made, perc: 0.0411 bottom: 0.00381 top: 0.003814
+0.003812 -------comparison made, perc: 0.2774 bottom: 0.00381 top: 0.003812
+0.003811 comparison made, perc: 0.5547 bottom: 0.003811 top: 0.003812
+0.003812 -------comparison made, perc: 0.9576 bottom: 0.003812 top: 0.003812
+0.003812 comparison made, perc: 0.9153 bottom: 0.003812 top: 0.003812
+OPTIMIZED Megiddo: 0.003812
+actual comp: 21 others: 15007606 for optimization: 11
+
+Newton: 0.003812
+iterations: 3
+
+----------------------------------------
+comparison made, cv: 0.6678 bottom: 0 top: 0.6678
+comparison made, cv: 0.2615 bottom: 0 top: 0.2615
+comparison made, cv: 0.1189 bottom: 0 top: 0.1189
+comparison made, cv: 0.07069 bottom: 0 top: 0.07069
+comparison made, cv: 0.03264 bottom: 0 top: 0.03264
+comparison made, cv: 0.02039 bottom: 0 top: 0.02039
+comparison made, cv: 0.006362 bottom: 0 top: 0.006362
+comparison made, cv: 0.002058 bottom: 0.002058 top: 0.006362
+comparison made, cv: 0.00326 bottom: 0.00326 top: 0.006362
+comparison made, cv: 0.005459 bottom: 0.00326 top: 0.005459
+comparison made, cv: 0.004932 bottom: 0.00326 top: 0.004932
+comparison made, cv: 0.003831 bottom: 0.00326 top: 0.003831
+comparison made, cv: 0.003704 bottom: 0.00326 top: 0.003704
+comparison made, cv: 0.003489 bottom: 0.00326 top: 0.003489
+comparison made, cv: 0.003455 bottom: 0.00326 top: 0.003455
+comparison made, cv: 0.003371 bottom: 0.003371 top: 0.003455
+comparison made, cv: 0.003401 bottom: 0.003371 top: 0.003401
+comparison made, cv: 0.003391 bottom: 0.003371 top: 0.003391
+comparison made, cv: 0.003372 bottom: 0.003372 top: 0.003391
+comparison made, cv: 0.00338 bottom: 0.003372 top: 0.00338
+comparison made, cv: 0.003378 bottom: 0.003378 top: 0.00338
+comparison made, cv: 0.003378 bottom: 0.003378 top: 0.00338
+comparison made, cv: 0.003378 bottom: 0.003378 top: 0.00338
+comparison made, cv: 0.00338 bottom: 0.003378 top: 0.00338
+comparison made, cv: 0.00338 bottom: 0.003378 top: 0.00338
+comparison made, cv: 0.003378 bottom: 0.003378 top: 0.00338
+comparison made, cv: 0.003378 bottom: 0.003378 top: 0.00338
+comparison made, cv: 0.003379 bottom: 0.003379 top: 0.00338
+comparison made, cv: 0.003379 bottom: 0.003379 top: 0.00338
+comparison made, cv: 0.003379 bottom: 0.003379 top: 0.003379
+comparison made, cv: 0.003379 bottom: 0.003379 top: 0.003379
+Megiddo: 0.003379
+actual comp: 31 others: 14996377
+
+0.6678 comparison made, perc: 0 bottom: 0 top: 0.6678
+0.3339 -------comparison made, perc: 0.3916 bottom: 0 top: 0.3339
+0.2615 comparison made, perc: 0.7831 bottom: 0 top: 0.2615
+0.1189 comparison made, perc: 0.4549 bottom: 0 top: 0.1189
+0.07069 comparison made, perc: 0.5943 bottom: 0 top: 0.07069
+0.03264 comparison made, perc: 0.4617 bottom: 0 top: 0.03264
+0.01632 -------comparison made, perc: 0.6248 bottom: 0 top: 0.01632
+0.008159 -------comparison made, perc: 0.3899 bottom: 0 top: 0.008159
+0.006362 comparison made, perc: 0.7798 bottom: 0 top: 0.006362
+0.003181 -------comparison made, perc: 0.3234 bottom: 0.003181 top: 0.006362
+0.004772 -------comparison made, perc: 0.02467 bottom: 0.003181 top: 0.004772
+0.00326 comparison made, perc: 0.04934 bottom: 0.00326 top: 0.004772
+0.004016 -------comparison made, perc: 0.378 bottom: 0.00326 top: 0.004016
+comparison made, cv: 0.004337 bottom: 0.004337 top: 0.004438
+comparison made, cv: 0.004356 bottom: 0.004356 top: 0.004438
+comparison made, cv: 0.004382 bottom: 0.004356 top: 0.004382
+comparison made, cv: 0.004373 bottom: 0.004373 top: 0.004382
+comparison made, cv: 0.004378 bottom: 0.004373 top: 0.004378
+comparison made, cv: 0.004376 bottom: 0.004376 top: 0.004378
+comparison made, cv: 0.004376 bottom: 0.004376 top: 0.004378
+comparison made, cv: 0.004377 bottom: 0.004377 top: 0.004378
+comparison made, cv: 0.004378 bottom: 0.004377 top: 0.004378
+comparison made, cv: 0.004378 bottom: 0.004378 top: 0.004378
+comparison made, cv: 0.004378 bottom: 0.004378 top: 0.004378
+comparison made, cv: 0.004378 bottom: 0.004378 top: 0.004378
+comparison made, cv: 0.004378 bottom: 0.004378 top: 0.004378
+comparison made, cv: 0.004378 bottom: 0.004378 top: 0.004378
+Megiddo: 0.004378
+actual comp: 37 others: 14990933
+comparison made, cv: 0.002069 bottom: 0.002069 top: 0.007417
+comparison made, cv: 0.00588 bottom: 0.002069 top: 0.00588
+comparison made, cv: 0.002923 bottom: 0.002923 top: 0.00588
+comparison made, cv: 0.00499 bottom: 0.002923 top: 0.00499
+comparison made, cv: 0.004572 bottom: 0.002923 top: 0.004572
+comparison made, cv: 0.003377 bottom: 0.003377 top: 0.004572
+comparison made, cv: 0.004282 bottom: 0.003377 top: 0.004282
+comparison made, cv: 0.004251 bottom: 0.003377 top: 0.004251
+comparison made, cv: 0.004054 bottom: 0.003377 top: 0.004054
+comparison made, cv: 0.003831 bottom: 0.003377 top: 0.003831
+comparison made, cv: 0.003649 bottom: 0.003649 top: 0.003831
+comparison made, cv: 0.003755 bottom: 0.003649 top: 0.003755
+comparison made, cv: 0.003659 bottom: 0.003659 top: 0.003755
+comparison made, cv: 0.003702 bottom: 0.003702 top: 0.003755
+comparison made, cv: 0.003734 bottom: 0.003702 top: 0.003734
+comparison made, cv: 0.003707 bottom: 0.003707 top: 0.003734
+comparison made, cv: 0.003733 bottom: 0.003707 top: 0.003733
+comparison made, cv: 0.003713 bottom: 0.003713 top: 0.003733
+comparison made, cv: 0.003713 bottom: 0.003713 top: 0.003733
+comparison made, cv: 0.003731 bottom: 0.003713 top: 0.003731
+comparison made, cv: 0.003714 bottom: 0.003714 top: 0.003731
+comparison made, cv: 0.003716 bottom: 0.003716 top: 0.003731
+comparison made, cv: 0.003725 bottom: 0.003725 top: 0.003731
+comparison made, cv: 0.003729 bottom: 0.003725 top: 0.003729
+comparison made, cv: 0.003727 bottom: 0.003725 top: 0.003727
+comparison made, cv: 0.003727 bottom: 0.003725 top: 0.003727
+comparison made, cv: 0.003726 bottom: 0.003726 top: 0.003727
+comparison made, cv: 0.003726 bottom: 0.003726 top: 0.003726
+comparison made, cv: 0.003726 bottom: 0.003726 top: 0.003726
+comparison made, cv: 0.003726 bottom: 0.003726 top: 0.003726
+Megiddo: 0.003726
+actual comp: 37 others: 14994665
+
+1.711 comparison made, perc: 0 bottom: 0 top: 1.711
+0.8553 -------comparison made, perc: 0.08987 bottom: 0 top: 0.8553
+0.1537 comparison made, perc: 0.1797 bottom: 0 top: 0.1537
+0.07687 -------comparison made, perc: 0.6302 bottom: 0 top: 0.07687
+0.03843 -------comparison made, perc: 0.6438 bottom: 0 top: 0.03843
+0.01648 comparison made, perc: 0.4289 bottom: 0 top: 0.01648
+0.007417 comparison made, perc: 0.4499 bottom: 0 top: 0.007417
+0.003708 -------comparison made, perc: 0.279 bottom: 0.003708 top: 0.007417
+0.00588 comparison made, perc: 0.5856 bottom: 0.003708 top: 0.00588
+0.00499 comparison made, perc: 0.59 bottom: 0.003708 top: 0.00499
+0.004349 -------comparison made, perc: 0.6737 bottom: 0.003708 top: 0.004349
+0.004029 -------comparison made, perc: 0.8962 bottom: 0.003708 top: 0.004029
+0.003868 -------comparison made, perc: 0.382 bottom: 0.003708 top: 0.003868
+0.003831 comparison made, perc: 0.7641 bottom: 0.003708 top: 0.003831
+0.00377 -------comparison made, perc: 0.3818 bottom: 0.003708 top: 0.00377
+0.003755 comparison made, perc: 0.7636 bottom: 0.003708 top: 0.003755
+0.003734 comparison made, perc: 0.547 bottom: 0.003708 top: 0.003734
+0.003721 -------comparison made, perc: 0.9701 bottom: 0.003721 top: 0.003734
+0.003733 comparison made, perc: 0.9402 bottom: 0.003721 top: 0.003733
+0.003727 -------comparison made, perc: 0.7858 bottom: 0.003721 top: 0.003727
+0.003724 -------comparison made, perc: 0.6673 bottom: 0.003724 top: 0.003727
+0.003725 comparison made, perc: 0.3346 bottom: 0.003725 top: 0.003727
+0.003726 -------comparison made, perc: 0.9371 bottom: 0.003725 top: 0.003726
+0.003726 comparison made, perc: 0.4558 bottom: 0.003726 top: 0.003726
+0.003726 -------comparison made, perc: 0.1111 bottom: 0.003726 top: 0.003726
+0.003726 comparison made, perc: 0.2223 bottom: 0.003726 top: 0.003726
+OPTIMIZED Megiddo: 0.003726
+actual comp: 26 others: 15004681 for optimization: 13
+
+Newton: 0.003726
+iterations: 4
+
+----------------------------------------
+comparison made, cv: 2.97 bottom: 0 top: 2.97
+comparison made, cv: 1.25 bottom: 0 top: 1.25
+comparison made, cv: 0.7991 bottom: 0 top: 0.7991
+comparison made, cv: 0.2446 bottom: 0 top: 0.2446
+comparison made, cv: 0.001062 bottom: 0.001062 top: 0.2446
+comparison made, cv: 0.1701 bottom: 0.001062 top: 0.1701
+comparison made, cv: 0.07483 bottom: 0.001062 top: 0.07483
+comparison made, cv: 0.04046 bottom: 0.001062 top: 0.04046
+comparison made, cv: 0.03409 bottom: 0.001062 top: 0.03409
+comparison made, cv: 0.007854 bottom: 0.001062 top: 0.007854
+comparison made, cv: 0.007555 bottom: 0.001062 top: 0.007555
+comparison made, cv: 0.003153 bottom: 0.003153 top: 0.007555
+comparison made, cv: 0.007257 bottom: 0.003153 top: 0.007257
+comparison made, cv: 0.003686 bottom: 0.003686 top: 0.007257
+comparison made, cv: 0.00552 bottom: 0.003686 top: 0.00552
+comparison made, cv: 0.005098 bottom: 0.003686 top: 0.005098
+comparison made, cv: 0.003843 bottom: 0.003843 top: 0.005098
+comparison made, cv: 0.004394 bottom: 0.003843 top: 0.004394
+comparison made, cv: 0.004156 bottom: 0.003843 top: 0.004156
+comparison made, cv: 0.003943 bottom: 0.003943 top: 0.004156
+comparison made, cv: 0.004054 bottom: 0.004054 top: 0.004156
+comparison made, cv: 0.004104 bottom: 0.004054 top: 0.004104
+comparison made, cv: 0.004084 bottom: 0.004084 top: 0.004104
+comparison made, cv: 0.004099 bottom: 0.004099 top: 0.004104
+comparison made, cv: 0.004103 bottom: 0.004099 top: 0.004103
+comparison made, cv: 0.004102 bottom: 0.004099 top: 0.004102
+comparison made, cv: 0.0041 bottom: 0.0041 top: 0.004102
+comparison made, cv: 0.0041 bottom: 0.0041 top: 0.004102
+comparison made, cv: 0.004102 bottom: 0.0041 top: 0.004102
+comparison made, cv: 0.004102 bottom: 0.0041 top: 0.004102
+comparison made, cv: 0.004101 bottom: 0.004101 top: 0.004102
+comparison made, cv: 0.004101 bottom: 0.004101 top: 0.004102
+comparison made, cv: 0.004101 bottom: 0.004101 top: 0.004102
+Megiddo: 0.004102
+actual comp: 33 others: 14993536
+
+0.004101 comparison made, perc: 0.3497 bottom: 0.004101 top: 0.004102
+OPTIMIZED Megiddo: 0.004102
+actual comp: 29 others: 15003546 for optimization: 17
+
+Newton: 0.004102
+iterations: 2
+
+----------------------------------------
+comparison made, cv: 0.2812 bottom: 0 top: 0.2812
+comparison made, cv: 0.1304 bottom: 0 top: 0.1304
+comparison made, cv: 0.03922 bottom: 0 top: 0.03922
+comparison made, cv: 0.01884 bottom: 0 top: 0.01884
+comparison made, cv: 0.003179 bottom: 0.003179 top: 0.01884
+comparison made, cv: 0.007191 bottom: 0.003179 top: 0.007191
+comparison made, cv: 0.00594 bottom: 0.003179 top: 0.00594
+comparison made, cv: 0.004381 bottom: 0.003179 top: 0.004381
+comparison made, cv: 0.003911 bottom: 0.003179 top: 0.003911
+comparison made, cv: 0.003684 bottom: 0.003179 top: 0.003684
+comparison made, cv: 0.003378 bottom: 0.003179 top: 0.003378
+comparison made, cv: 0.003209 bottom: 0.003179 top: 0.003209
+comparison made, cv: 0.003185 bottom: 0.003185 top: 0.003209
+comparison made, cv: 0.003194 bottom: 0.003194 top: 0.003209
+comparison made, cv: 0.003208 bottom: 0.003208 top: 0.003209
+comparison made, cv: 0.003209 bottom: 0.003208 top: 0.003209
+comparison made, cv: 0.003208 bottom: 0.003208 top: 0.003208
+comparison made, cv: 0.003208 bottom: 0.003208 top: 0.003208
+comparison made, cv: 0.003208 bottom: 0.003208 top: 0.003208
+Megiddo: 0.003208
+actual comp: 19 others: 14991678
+
+0.2812 comparison made, perc: 0 bottom: 0 top: 0.2812
+0.1304 comparison made, perc: 0.4638 bottom: 0 top: 0.1304
+0.06521 -------comparison made, perc: 0.3007 bottom: 0 top: 0.06521
+0.03922 comparison made, perc: 0.6014 bottom: 0 top: 0.03922
+0.01884 comparison made, perc: 0.4803 bottom: 0 top: 0.01884
+0.009418 -------comparison made, perc: 0.1688 bottom: 0 top: 0.009418
+0.003179 comparison made, perc: 0.3375 bottom: 0.003179 top: 0.009418
+0.006298 -------comparison made, perc: 0.6431 bottom: 0.003179 top: 0.006298
+0.004738 -------comparison made, perc: 0.885 bottom: 0.003179 top: 0.004738
+0.003959 -------comparison made, perc: 0.771 bottom: 0.003179 top: 0.003959
+0.003569 -------comparison made, perc: 0.9389 bottom: 0.003179 top: 0.003569
+0.003378 comparison made, perc: 0.5121 bottom: 0.003179 top: 0.003378
+0.003278 -------comparison made, perc: 0.1537 bottom: 0.003179 top: 0.003278
+0.003209 comparison made, perc: 0.3073 bottom: 0.003179 top: 0.003209
+0.003194 -------comparison made, perc: 0.2183 bottom: 0.003194 top: 0.003209
+0.003202 -------comparison made, perc: 0.9348 bottom: 0.003202 top: 0.003209
+0.003208 comparison made, perc: 0.8696 bottom: 0.003208 top: 0.003209
+0.003209 comparison made, perc: 0.4429 bottom: 0.003208 top: 0.003209
+0.003209 -------comparison made, perc: 0.1855 bottom: 0.003208 top: 0.003209
+0.003208 comparison made, perc: 0.3709 bottom: 0.003208 top: 0.003208
+0.003208 -------comparison made, perc: 0.8896 bottom: 0.003208 top: 0.003208
+0.003208 -------comparison made, perc: 0.02467 bottom: 0.003208 top: 0.003208
+0.003208 comparison made, perc: 0.04934 bottom: 0.003208 top: 0.003208
+OPTIMIZED Megiddo: 0.003208
+actual comp: 23 others: 15001679 for optimization: 12
+
+Newton: 0.003208
+iterations: 6
+
+----------------------------------------
+comparison made, cv: 2.497 bottom: 0 top: 2.497
+comparison made, cv: 0.2041 bottom: 0 top: 0.2041
+comparison made, cv: 0.1488 bottom: 0 top: 0.1488
+comparison made, cv: 0.05188 bottom: 0 top: 0.05188
+comparison made, cv: 0.03115 bottom: 0 top: 0.03115
+actual comp: 33 others: 14995747
+
+2.497 comparison made, perc: 0 bottom: 0 top: 2.497
+1.248 -------comparison made, perc: 0.08176 bottom: 0 top: 1.248
+0.2041 comparison made, perc: 0.1635 bottom: 0 top: 0.2041
+0.1021 -------comparison made, perc: 0.7288 bottom: 0 top: 0.1021
+0.05188 comparison made, perc: 0.5083 bottom: 0 top: 0.05188
+0.02594 -------comparison made, perc: 0.6004 bottom: 0 top: 0.02594
+0.0109 comparison made, perc: 0.4201 bottom: 0 top: 0.0109
+0.005448 -------comparison made, perc: 0.8961 bottom: 0 top: 0.005448
+0.002724 -------comparison made, perc: 0.259 bottom: 0.002724 top: 0.005448
+0.004086 -------comparison made, perc: 0.6873 bottom: 0.002724 top: 0.004086
+0.003405 -------comparison made, perc: 0.7306 bottom: 0.003405 top: 0.004086
+0.003719 comparison made, perc: 0.4612 bottom: 0.003719 top: 0.004086
+0.003903 -------comparison made, perc: 0.2392 bottom: 0.003903 top: 0.004086
+0.003994 -------comparison made, perc: 0.7177 bottom: 0.003994 top: 0.004086
+0.004034 comparison made, perc: 0.4354 bottom: 0.004034 top: 0.004086
+0.00406 -------comparison made, perc: 0.02481 bottom: 0.004034 top: 0.00406
+0.004036 comparison made, perc: 0.04962 bottom: 0.004036 top: 0.00406
+0.004048 -------comparison made, perc: 0.1786 bottom: 0.004036 top: 0.004048
+0.00404 comparison made, perc: 0.3573 bottom: 0.00404 top: 0.004048
+0.004044 -------comparison made, perc: 0.1993 bottom: 0.00404 top: 0.004044
+0.004042 comparison made, perc: 0.3987 bottom: 0.004042 top: 0.004044
+0.004043 -------comparison made, perc: 0.2482 bottom: 0.004043 top: 0.004044
+0.004043 -------comparison made, perc: 0.2871 bottom: 0.004043 top: 0.004043
+0.004043 comparison made, perc: 0.5742 bottom: 0.004043 top: 0.004043
+0.004043 -------comparison made, perc: 0.3206 bottom: 0.004043 top: 0.004043
+0.004043 comparison made, perc: 0.4621 bottom: 0.004043 top: 0.004043
+0.004043 -------comparison made, perc: 0.772 bottom: 0.004043 top: 0.004043
+0.004043 comparison made, perc: 0.5439 bottom: 0.004043 top: 0.004043
+OPTIMIZED Megiddo: 0.004043
+actual comp: 28 others: 15005759 for optimization: 16
+
+Newton: 0.004043
+iterations: 3

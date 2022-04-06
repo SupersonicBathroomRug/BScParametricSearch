@@ -1,5 +1,9 @@
+#Files
+op.txt
+
 #Folders
 .vscode/
+.ipynb_checkpoints
 
 # Prerequisites
 *.d
